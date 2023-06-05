@@ -3,7 +3,7 @@ import { Link } from 'react-router-dom';
 
 export const Container = styled.div`
  min-height: 692px;
- position: fixed;
+ position: absolute;
  bottom: 0;
  left: 0;
  right: 0;
@@ -57,10 +57,6 @@ export const Form = styled.form`
  border-radius: 4px;
  box-shadow: 1px 2px 10px rgba(0, 0, 0, 0.9);
 
- @media screen and (max-width: 400px) {
-    padding: 20px 32px;
-    height: 81%;
- } 
 `;
 
 export const FormH1 = styled.label`
